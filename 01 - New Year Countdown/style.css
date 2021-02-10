@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.new-year-countdown {
+  display: flex;
+}
+
+.numbers-c {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 3rem;
+}
+
+.container-c {
+  text-align: center;
+}
+
+.container-c span {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-with, initial-scale=1.0" />
+    <title>Anniversary Countdown!</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Anniversary Countdown!</h1>
+
+    <div class="anniversary-countdown">
+      <div class="container-a days-a">
+        <p class="numbers-a" id="days">0</p>
+        <span>days</span>
+      </div>
+      <div class="container-a hours-a">
+        <p class="numbers-a" id="hours">0</p>
+        <span>hours</span>
+      </div>
+      <div class="container-a mins-a">
+        <p class="numbers-a" id="mins">0</p>
+        <span>mins</span>
+      </div>
+      <div class="container-a seconds-a">
+        <p class="numbers-a" id="seconds">0</p>
+        <span>seconds</span>
+      </div>
+    </div>
+    <form class="form-a" onsubmit="submitDate(event);">
+      <input
+        type="text"
+        placeholder="month/day/year"
+        class="anniversary-input-a"
+        id="anniversary-input"
+      />
+      <input type="submit" class="submit-input-a" value="Get Anniversary!" />
+    </form>
+  </body>
+</html>
